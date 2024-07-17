@@ -3,7 +3,6 @@ services:
   sample-streamlit:
     build: ./sample-streamlit
     image: sample-streamlit:latest
-    user: streamlit
     ports:
       - 8501:8501
     command: streamlit run ./streamlit/app.py
