@@ -11,7 +11,7 @@ st.divider()
 
 menu_selectbox = st.sidebar.selectbox(
     "menu",
-    ("csv aggregate", "map"),
+    ("simple cross", "map"),
     index = None
 )
 
